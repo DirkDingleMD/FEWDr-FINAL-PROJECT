@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="normalise.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+  <script src="fun.js"></script>
+</head>
+
+<body>
+  <!-- <iframe src="audio/Spomeniks stereo mix 14 Titel_v1.0.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+  <audio autoplay loop  id="playAudio">
+    <source src="audio/Spomeniks stereo mix 14 Titel_v1.0.mp3">
+  </audio> -->
+
+
+  <!-- <div id="ticker-container">
+    <div id="ticker-text">Titel    N45°12'18.4"   E20°18'42.8"   //    from A Spectral Geology      </div>
+  </div> -->
+
+  <!-- <div class="container"> -->
+   <header class="site-header" id="myHeader">
+     <div id="ticker-container">
+       <div id="ticker-text">Titel    N45°12'18.4"   E20°18'42.8"   //    from A Spectral Geology
+       </div></div>
+     <div class="site-header__wrapper">
+      <h1 class="hero-name">D A Calf</h1>
+
+<nav class="nav">
+    <ul>
+      <li class="nav-items">
+          <a href="https://www.dacalf.com" target="_blank">Works</a></li>
+      <li class="nav-items">
+          <a href="https://www.dacalf.com/wordstextspeech" target="_blank">Text/Speech</a></li>
+      <li class="nav-items">
+          <a href="https://www.dacalf.com/about" target="_blank">About</a></li>
+      <li class="nav-items">
+          <a href="https://www.dacalf.com/events" target="_blank">Events</a></li>
+      <li class="nav-items">
+        <a href="https://www.dacalf.com/contact" target="_blank">Contact</a></li>
+      <!-- <li class="audio-player"><audio controls>
+        <source src="audio/Spomeniks stereo mix 14 Titel_v1.0.mp3" type="audio/mp3">
+      Your browser does not support the audio element.</audio></li> -->
+      <!-- <a class="play-audio" href="/track-shipment" class="button">Play</a> -->
+      <!-- <li class="play-audio"> -->
+      <li class="nav-items">
+        <!-- <a href="#" class="play-button">[Play] -->
+          <!-- <input type="button" id="play-pause" > -->
+          <button id="play-pause"value="PLAY" onclick="play()">PLAY</button>
+            <a onclick="playSound();">
+            <audio id="ribbon-audio" src="audio/Spomeniks stereo mix 14 Titel_v1.0.mp3" autostart="false" ></audio>
+
+        </a></li>
+
+        <li class="nav-items">
+          <a class="featured-works"href="#page-1">1</a>
+          <a class="featured-works"href="#page-2">2</a>
+          <a class="featured-works"href="#page-3">3</a>
+          <a class="featured-works"href="#page-4">4</a>
+          <a class="featured-works"href="#page-5">5</a>
+        </li>
+
+
+        <!-- <img src="play-button-svgrepo-com.svg" alt=""></li> -->
+        <!-- <object data="play-button-svgrepo-com.svg" width="300" height="300"> </object> -->
+        </ul>
+      </nav>
+    </div>
+   </header>
+  <!-- </div> -->
+
+
+<container class=image-scroll>
+
+  <!-- <button type="button">Play</button> -->
+
+  <!-- <div class="homepage-book__cover brightness-1 responsive-image" style="filter: grayscale(100%) contrast(2) brightness(1); width: 1224px; max-width: 100%;" data-mimetype="image/jpeg">
+
+    <div class="responsive-image-picture-wrapper" style="padding-bottom: 49.991359944703646%; position: relative; height: 0; overflow: hidden"> -->
+
+
+          <!-- <picture style="position: relative; top: 0; left: 0; width: 100%;">
+
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <!-- <source srcset="https://cdn.filepicker.io/api/file/AZenvLiT6CExjidcu2lt/convert?fit=max&amp;h=&amp;quality=95&amp;w=1224&amp;compress=true, https://cdn.filepicker.io/api/file/AZenvLiT6CExjidcu2lt/convert?fit=clip&amp;h=&amp;quality=75&amp;w=2448&amp;compress=true 2x">
+              <!--[if IE 9]></video><![endif]-->
+              <!-- <img srcset="https://cdn.filepicker.io/api/file/AZenvLiT6CExjidcu2lt/convert?fit=max&amp;h=&amp;quality=95&amp;w=1224&amp;compress=true, https://cdn.filepicker.io/api/file/AZenvLiT6CExjidcu2lt/convert?fit=clip&amp;h=&amp;quality=75&amp;w=2448&amp;compress=true 2x" alt="Cheerfulness cover copy">
+
+  </picture>
+
+
+    </div> -->
+
+
+
+  </div>
+
+<div class="featured-works-scroll-container">
+  <div class="scroll-page" id="page-1">
+    <div class="work-img" id="work-1-img">
+      <img src="images/DSC_2006 popina erasure1.jpg" alt="">
+
+  </div></div>
+
+  <div class="work-text"id="work-1-text">
+    <h2><a href="https://www.dacalf.com/#/aspectralgeology/">A Spectral Geology</a></h2>
+  </div>
+
+  <div class="hide-work-1-text">I am shown when someone hovers over the div above.</div>
+
+  <div class="spacer"></div>
+
+<div class="scroll-page" id="page-2">
+  <div class="work-img" id="work-2-img">
+    <img src="images/Remnant_KingsARI_1_DSC1849jarge.png" alt="">
+  </div></div>
+
+  <div class="work-text"id="work-2-text">
+    <h2><a href="https://www.dacalf.com/#/remnant/">Remnant</a></h2>
+  </div>
+
+<div class="spacer"></div>
+
+<div class="scroll-page" id="page-3">
+  <div class="work-img" id="work-3-img">
+    <img src="images/Five Morning EU 2018_cover v3 (spotify).jpg" alt="">
+  </div></div>
+
+  <div class="work-text"id="work-3-text">
+    <h2><a href="https://www.dacalf.com/#/machinic-cartographies/">Machinic Cartographies</a></h2>
+  </div>
+
+
+  <div class="spacer"></div>
+
+<div class="scroll-page" id="page-4">
+  <div class="work-img" id="work-4-img">
+    <img src="images/StM home hero v1.0 [6543Batman].png" alt="">
+  </div></div>
+
+  <div class="work-text"id="work-4-text">
+    <h2><a href="https://www.dacalf.com/#/speaking-to-monuments/">Speaking to Monuments</a></h2>
+  </div>
+
+  <div class="spacer"></div>
+
+<div class="scroll-page" id="page-5">
+  <div class="work-img" id="work-5-img">
+    <img src="images/Spectrogram sculptures - 120.png" alt="">
+  </div></div>
+
+  <div class="work-text"id="work-5-text">
+    <h2><a href="https://www.dacalf.com/#/onto-carto/">Onto-Carto</a></h2>
+  </div>
+  <div class="spacer"></div>
+</div>
+
+
+</container>
+
+
+
+<!--
+FOOTER
+ -->
+
+<div class="container-Footer"></div>
+  <footer>
+  <!-- Footer main -->
+  <!-- <section class="ft-main">
+    <div class="ft-main-item">
+      <ul class="footer-ul">
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Fieldwork</a></li>
+        <li><a href="#">Writing</a></li>
+        <li><a href="#">Presentation</a></li>
+        <li><a href="#">Composition</a></li>
+      </ul>
+    </div>
+  </section> -->
+
+  <!-- Footer social -->
+  <!-- <section class="ft-social">
+    <ul class="ft-social-list">
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </section> -->
+
+  <!-- Footer legal -->
+  <section class="ft-legal">
+    <ul class="ft-legal-list">
+      <li id="aoc">The artist acknowledges the Woi Wurrung and Boon Wurrung language groups of the Eastern Kulin nation as the traditional owners of the unceded and stolen lands upon which he is based and respectfully recognises Elders past and present. Furthermore, he acknowledges the ongoing cultural, spiritual and intellectual genocide in the face of which Aboriginal and Torres Strait Islander people continue to practice culture, language and lore.</li>
+      <li id="copyright">This website and its content is copyright © 2022 D A Calf unless otherwise stated. Any redistribution or reproduction of part or all of the contents in any form is prohibited. You may not, except with our written permission, distribute or commercially exploit the content. Nor may you transmit it or store it in any other website or other form of electronic retrieval system without the prior written permission of D A Calf.
+    </ul>
+  </section>
+
+</footer>
+
+
+
+
+
+</body>
+</html>

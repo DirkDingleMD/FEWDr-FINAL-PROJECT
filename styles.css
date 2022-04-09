@@ -1,0 +1,479 @@
+body {
+  background-color: rgb(255,250,250);
+  /* background-color: red; */
+  /* font-family: proxima-nova; */
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.8em;
+  font-size: 15px;
+  text-transform: none;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
+
+/* .audio-player {
+  /* align-items: flex-end; */
+  /* align-content: flex-end;
+  background-blend-mode: luminosity;
+} */
+
+/* button {
+  background-color: #4CAF50; /* Green */
+  /* border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+/* } */
+
+/* .container {
+  /* background-color: red; */
+  /* position: fixed;
+} */
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+} */
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+  padding-top: 102px;
+} */
+
+
+
+.site-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.site-header__wrapper {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* mix-blend-mode: DIFFERENCE; */
+}
+
+/* .site-header__wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+} */
+
+.play-audio {
+  font-size: 25px;
+}
+
+.nav {
+  font-size: 15px;
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 4;
+  justify-content: space-between;
+  align-items: right;
+  color: white;
+  /* background: rgba(0, 0, 0, .65); */
+  /* background-blend-mode: darken; */
+
+}
+
+.nav-items {
+  font-size: 15px;
+  color: white;
+  /* padding: 10px; */
+  display: flex;
+  align-items: right;
+  flex-grow: 4;
+}
+
+ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    flex: 0 1 auto;
+    list-style-type: none;
+    background: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: 'Shippori Mincho', sans-serif;
+  margin-left: 40px;
+
+
+  color: rgb(255,250,250);
+
+  /* padding-top: 25px; */
+}
+
+
+
+.hero-name {
+  /* mix-blend-mode: DIFFERENCE; */
+}
+
+
+
+/* <!-- ____________________________________
+smooth scroll between featured Works
+____________________________________ --> */
+
+.featured-works {
+  display: inline-block;
+  /* width: 20px; */
+  text-decoration: none;
+  color: white;
+}
+.featured-works .featured-works-scroll-container {
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.featured-works {
+  display: inline;
+  width: auto;
+  padding: 0px 10px 0px 10px;
+  border: none;
+  color: white;
+  width: 100%;
+}
+.featured-works-scroll-container {
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  color: white;
+  width: 100%;
+}
+.scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+  width: 100%;
+}
+
+/* __________________________________ */
+
+
+
+site-header li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  color: black;
+  font-style: italic;
+  /* text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000; */
+}
+
+/* .work-text h2 .spacer {
+  z-index: -1;
+} */
+
+
+
+/* Stole this from Squarespace */
+.page-divider {
+    margin-bottom: 0;
+    border-bottom: none;
+    margin: 0;
+/*     border-bottom: 1px solid #ddd; */
+}
+
+
+h2 {
+  font-size: 50px;
+  font-family: 'Shippori Mincho', sans-serif;
+  text-align: right;
+  /* padding-right: 35px; */
+  padding-top: 25px;
+  padding-right: 25px;
+  margin-top: 0;
+}
+
+.spacer {
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.image-scroll {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-1-img {
+  /* overflow: hidden;
+  height: 990px;
+  max-height: 990px;
+  position: bottom; */
+  /* clip:rect(1000px 1000px 1000px 100px); */
+
+}
+/* #work-2-img {
+  max-width: 100%;
+  height: auto;
+} */
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.work-text a:hover {
+  font-style: italic;
+}
+
+button {
+  cursor:pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 100%;
+  height: 860px;
+  bottom: 1000px;
+  object-fit: cover;
+  clip:rect(1000px 1000px 1000px 100px);
+/* filter: grayscale(100%); */
+}
+
+
+
+.hide-work-1-text {
+  display: none;
+  text-align: right;
+}
+
+.work-1-text:hover + .hide-work-1-text {
+  display: block;
+  color: red;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.work-img {
+  filter: contrast(1.75);
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+#work-4-img {
+  filter: grayscale(100%) brightness(60%);
+}
+
+#work-5-img {
+  filter: grayscale(100%) brightness(80%);
+}
+
+/* ------FOOTER-------- */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.footer-ul {
+  list-style: none;
+  padding-left: 0;
+  flex-direction: column;
+}
+
+.footer-ul li {
+  font-size: 15px;
+  font-family: 'Shippori Mincho', serif;
+  text-transform: uppercase;
+}
+
+/* .footer-ul :hover {
+  color: black;
+  font-style: italic;
+} */
+
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+
+#copyright {
+  color: gray;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#aoc {
+  color: gray;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/* Sticks footer to bottom */
+body {
+  display: flex;
+  min-height: none;
+  flex-direction: column;
+}
+.container-Footer {
+  flex: 1;
+}
+
+/* Footer main */
+/* .ft-main {
+  padding: 1.25rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+
+} */
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+/* .ft-main-item {
+  display: flex;
+  padding: 1.25rem;
+  min-width: 12.5rem;
+
+} */
+
+
+/* .ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+} */
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #333;
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: wrap;
+  font-size: 13px;
+
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+
+
+
+
+#ticker-container {
+  border: 1px 1px 1px 1px solid black;
+  border-radius: 0.5px;
+  overflow: hidden;
+  width: 100%;
+  position: static;
+  background-color: white;
+}
+
+#ticker-text {
+  color: black;
+  letter-spacing: 10px;
+  font-size: 10px;
+  position: static;
+  width: 100%;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: my-animation 40s linear infinite;
+  -webkit-animation: my-animation 40s linear infinite;
+  animation: my-animation 40s linear infinite;
+
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
